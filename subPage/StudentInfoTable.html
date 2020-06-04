@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no,viewport-fit:contain">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="中国物理科学研究院研究生院">
+  <meta name="keyword" content="中国物理科学研究院研究生院">
+  <title>中国物理科学研究院研究生院</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/cssreset.css">
+    <link rel="stylesheet" href="../css/personelInfoBase.css">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../css/StudentInfoTable.css">
+   <script>
+        ! function() {
+            function a() {
+                var dw = 1440; //设计稿尺寸
+                var viewport = document.getElementById('viewport');
+                viewport.setAttribute('content', 'width=' + dw + ', user-scalable=no,viewport-fit:contain')
+            }
+    
+            var b = null;
+            window.addEventListener('resize', function() {
+                clearTimeout(b);
+                b = setTimeout(a, 600)
+            }, !1);
+            a()
+        }(window);
+        </script>
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <header>
+    <!-- 版心盒子 -->
+    <div class="wrapBox wrap">
+      <!-- logo -->
+      <div class="logo fl">
+          <a href="../index.html" style="display: block; height: 100%;" title="访问官网主页"><img src="../img/bottom_logo.png"
+            alt=""></a>
+      </div>
+      <!-- 登陆信息 -->
+      <div class="islogin fr">
+          <button name="islogin" onclick=logOut()>退出</button>
+      </div>
+    </div>
+
+  </header>
+  <!-- 内容区 -->
+  <section class="wrap">
+    <table border="1" style="text-align: center">
+      <thead>
+        <tr>
+          <th name="ChangeLanguage" colspan="11">学生个人信息表</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td name="ChangeLanguage">姓名</td>
+          <td name="name"></td>
+          <td name="ChangeLanguage">性别</td>
+          <td name="sex"></td>
+          <td name="ChangeLanguage">民族</td>
+          <td name="nation"></td>
+          <td name="ChangeLanguage">政治面貌</td>
+          <td name="politicsstatus"></td>
+          <td name="ChangeLanguage">婚姻状况</td>
+          <td name="ismarriage"></td>
+          <td rowspan="5" id = "peopleImg"></td>
+        </tr>
+
+        <tr>
+          <td name="ChangeLanguage">导师</td>
+          <td name="tutor"></td>
+          <td name="ChangeLanguage">导师电话</td>
+          <td colspan="2" name="tutorphone"></td>
+
+          <td name="ChangeLanguage">专业</td>
+          <td colspan=2 name="specialty"></td>
+
+
+          <td name="ChangeLanguage">学号</td>
+          <td name="studentnumber"></td>
+
+
+
+        </tr>
+
+        <tr>
+          <td name="ChangeLanguage">籍贯</td>
+          <td colspan=2 name="nativeplace"></td>
+          <td name="ChangeLanguage">联系电话</td>
+          <td colspan=2 name="contactnumber"></td>
+          <td name="ChangeLanguage">电子邮件</td>
+          <td colspan=3 name="email"></td>
+
+        </tr>
+        <tr>
+          <td name="ChangeLanguage">入学时间</td>
+          <td name="timeofenrollment"></td>
+          <td name="ChangeLanguage">毕业时间</td>
+          <td name="timeofgraduation"></td>
+          <td name="ChangeLanguage">班级</td>
+          <td colspan=3 name="grade"></td>
+          <td name="ChangeLanguage">是否在职</td>
+          <td name="ispostgraduatestudy"></td>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage">培养单位</td>
+          <td colspan="4" name="cultivate"></td>
+          <td name="ChangeLanguage">培养方式</td>
+          <td colspan="2" name="educationselect"></td>
+          <td name="ChangeLanguage">考试方式</td>
+          <td name="examination"></td>
+        </tr>
+
+        <tr>
+          <td name="ChangeLanguage">课程阶段地点</td>
+          <td name="studyaddress" colspan="4"></td>
+          <td name="ChangeLanguage">论文阶段地点</td>
+          <td name="thesisstage" colspan="5"></td>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage" rowspan="2">
+            身份证
+          </td>
+          <td name="ChangeLanguage">号码</td>
+          <td colspan="3" name="identitycard"></td>
+          <td name="ChangeLanguage" rowspan="2">
+            护照
+          </td>
+          <td name="ChangeLanguage">号码</td>
+          <td colspan="4" name="protection"></td>
+        </tr>
+        <tr>
+
+          <td name="ChangeLanguage">有效期</td>
+          <td colspan="3" name="identitycarend"></td>
+
+          <td name="ChangeLanguage">有效期</td>
+          <td colspan="4" name="protectionend"></td>
+        </tr>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage" rowspan="2">
+            港澳通行证
+          </td>
+          <td name="ChangeLanguage">号码</td>
+          <td colspan="3" name="hkandmacao"></td>
+          <td name="ChangeLanguage" rowspan="2">
+            台胞证
+          </td>
+          <td name="ChangeLanguage">号码</td>
+          <td colspan="4" name="taiwan"></td>
+        </tr>
+        <tr>
+
+          <td name="ChangeLanguage">有效期</td>
+          <td colspan="3" name="hkandmacaoend"></td>
+
+          <td name="ChangeLanguage">有效期</td>
+          <td colspan="4" name="taiwanend"></td>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage" colspan="11">在读期间奖惩情况</td>
+        </tr>
+        <tr>
+          <td class="personelContent" colspan="11" name="takeoffice"></td>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage" colspan="11">学籍变动情况</td>
+        </tr>
+        <tr>
+          <td class="personelContent" colspan="11" name="schoolroll"></td>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage" colspan="11">入学前奖惩/担任学生干部情况</td>
+        </tr>
+        <tr>
+          <td class="personelContent" colspan="11" name="atschool"></td>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage"  colspan="11">本科及以上学历</td>
+        </tr>
+        <tr>
+          <td class="personelContent" style="white-space:pre" colspan="11" name="education">
+            
+          </td>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage" colspan="11">工作经历</td>
+        </tr>
+        <tr>
+          <td class="personelContent" style="white-space:pre" colspan="11" name="workunit"></td>
+        </tr>
+        <tr>
+          <td name="ChangeLanguage" colspan="11">家庭主要成员</td>
+        </tr>
+        <tr>
+          <td class="personelContent" style="white-space:pre" colspan="11" name="family">
+            
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <!-- 友情链接 -->
+  <div class="friendlyLink ">
+    <ul class="clearfix wrap">
+      <li name="friendlyLink"><span>友情链接:</span></li>
+      <li name="friendlyLink"><a href="#">中国工程物理研究院</a></li>
+      <li name="friendlyLink"><a href="#">中国工程物理研究院研究生院</a></li>
+      <li name="friendlyLink"><a href="#">北京计算科学研究中心</a></li>
+    </ul>
+  </div>
+  <ul class="mod-sidebar leftBars">
+      <li name = "more"><a name ="more" class="sideMenu2" href="./Homepage.html">返回</a></li>
+</ul>
+  <script src="../js/common.js"></script>
+  <script src="../js/jquery-1.12.3.js"></script>
+  <script src="../js/StudentInfoTable.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>

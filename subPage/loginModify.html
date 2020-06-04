@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no,viewport-fit:contain">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>中国工程物理研究院研究生院</title>
+  <meta name="keywords" content="中国工程物理研究院研究生院">
+  <meta name="description" content="中国工程物理研究院研究生院">
+  <link rel="stylesheet" href="../css/cssreset.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../js/layui/css/layui.css">
+  <link rel="stylesheet" href="../css/login/loginModify.css">
+  <script src="../js/layui/layui.all.js"></script>
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+  <script src="../js/common.js"></script>
+   <script>
+        ! function() {
+            function a() {
+                var dw = 1440; //设计稿尺寸
+                var viewport = document.getElementById('viewport');
+                viewport.setAttribute('content', 'width=' + dw + ', user-scalable=no,viewport-fit:contain')
+            }
+    
+            var b = null;
+            window.addEventListener('resize', function() {
+                clearTimeout(b);
+                b = setTimeout(a, 600)
+            }, !1);
+            a()
+        }(window);
+        </script>
+</head>
+<body>
+      <div class="login_wrapper">
+          <div class="login_header">
+              <div class="logo_header_img"></div>
+          </div>
+          <div class="login_header_title">
+            <div class="login_header_title_item">
+              
+            </div>
+          </div>
+          <div class="login_content clearfix">
+            <div class="login_pic fl">
+                  
+            </div>
+            <div class="login_item fl">
+              <div class="login_form clearfix">
+                <input type="username" name="Modifyusername" placeholder="用户账号" value="">
+                <input type="password" name="Modifyoldpassword" placeholder="旧密码" value="">
+                <input type="password" name="Modifypassword" placeholder="新密码" value="">
+                <input type="password" name="Modifyconfirm" placeholder="确认新密码" value="">
+                <a id="loginModify_back" href="../subPage/login.html">返回</a>
+                <button type="button" id="submit" >提交</button>
+              </div>
+            </div>
+          </div>
+      </div>
+</body>
+<script src="../js/jquery-1.12.3.js"></script>
+<script src="../js/loginModify.js"></script>
+
+</html>

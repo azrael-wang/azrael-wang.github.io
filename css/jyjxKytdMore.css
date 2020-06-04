@@ -1,0 +1,123 @@
+.menu_lsyg .content_item .item .left_menu {
+  min-height: 390px;
+}
+
+.menu_lsyg .content_item {
+  min-height: 500px;
+}
+
+.menu_lsyg .content {
+  min-height: 720px
+}
+
+#kytd_leftMenu>li:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 个人信息头部 */
+.detailPage_Pi {
+  height: 200px;
+  background-color: #F5FAFF;
+}
+
+.detailPage_Pi .detailPage_pi_img {
+  width: 152px;
+  height: 200px;
+
+}
+
+.detailPage_Pi .detailPage_pi_img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.detailPage_Pi .detaiPage_pi_info {
+  box-sizing: border-box;
+  height: 200px;
+  padding-top: 12px;
+  padding-left: 180px;
+  text-align: left;
+}
+
+.detailPage_Pi .detaiPage_pi_info h5 {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.detailPage_Pi .detaiPage_pi_info span {
+  height: 14px;
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.detailPage_Pi .detaiPage_pi_info .detail_pi_info_bottomspan {
+  margin-bottom: 12px;
+}
+
+.detailPage_Pi .detaiPage_pi_info a {
+
+  font-size: 14px;
+  color: #165B9F;
+}
+
+/* 个人信息展示 */
+.detailPage_Pi_content_item {
+  text-align: left;
+  float: left;
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.detailPage_Pi_content_item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.detailPage_Pi_content_item:last-child {
+  width: 100%;
+}
+
+.detailPage_Pi_content_item h2 {
+  font-size: 18px;
+  color: #165B9F;
+  margin-bottom: 16px;
+}
+
+.detailPage_Pi_content_item p {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #666;
+}
+
+.detailPage_Pi_content_item p:nth-last-child(1) {
+  margin-bottom: 0;
+
+}
+
+.detailPage_Pi_content {
+  padding-top: 5%;
+}

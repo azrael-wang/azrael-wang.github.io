@@ -1,0 +1,457 @@
+@charset "utf-8";
+
+body {
+  min-width: 1250px;
+}
+
+/*tab切换样式*/
+.tab_active {
+  /* background: linear-gradient(#CAE5FF, #fff) */
+  background: url(../img/line_1.png) repeat;
+}
+
+/*工具类名*/
+.lsyg_fl {
+  float: left;
+}
+
+.lsyg_rl {
+  float: right;
+}
+
+.content_item_active {
+  display: block !important;
+}
+
+.item_sel_active {
+  background-color: #fff;
+}
+
+.menu_lsyg_wrap {
+  width: 1200px;
+}
+.sub_tab {																		
+  background-color: #165B9F !important;
+  color:#FFF !important;
+}
+/*banner 高度*/
+.menu_lsyg .banner {
+  height: 520px;
+  line-height: 520px;
+  text-align: center;
+  background: url("../img/banner2.png")
+}
+/* tab栏选项 */
+.menu_lsyg .content {
+  margin: 0 auto;
+   min-height:760px;
+}
+
+.menu_lsyg .title {
+  height: 50px;
+  border-bottom: 1px dashed #AAAAAA;
+  text-align: center;
+}
+
+.menu_lsyg .title ul {
+  display: block;
+  height: 40px;
+}
+
+.menu_lsyg .title li {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  min-width: 84px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*tab栏内容_历史沿革*/
+.menu_lsyg .content_item {
+  padding-top: 20px;
+  position: relative;
+
+}
+
+.menu_lsyg .content_item .item {
+  display: none;
+}
+
+.menu_lsyg .content_item .item_title {
+  height: 20px;
+
+}
+
+.menu_lsyg .content_item .item_title span {
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  border-left: 4px solid #165B9F;
+  padding-left: 15px;
+}
+
+.menu_lsyg .content_item .item .item_sel {
+  background: #E6F2FC;
+  margin-top: 52px;
+  position: relative;
+  height: 40px;
+  padding: 4px 72px 0;
+}
+
+.menu_lsyg .content_item .item .item_sel ul {
+  display: block;
+
+}
+
+.menu_lsyg .content_item .item .item_sel li {
+  float: left;
+  display: block;
+  text-align: center;
+  width: 80px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.menu_lsyg .content_item .item .item_sel>div {
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  background-color: #fff;
+  line-height: 36px;
+  text-align: center;
+
+}
+
+.menu_lsyg .content_item .item .item_sel .left_arrow {
+  left: 15px;
+  bottom: 3px;
+  color: #165B9F;
+  font-size: 24px;
+
+
+}
+
+.menu_lsyg .content_item .item .item_sel .right_arrow {
+  right: 15px;
+  bottom: 3px;
+  color: #165B9F;
+  font-size: 24px;
+
+}
+
+.menu_lsyg .content_item .item .item_context {
+  margin-top: 40px;
+}
+
+.menu_lsyg .content_item .item .item_context .context_item {
+  display: none;
+}
+
+.menu_lsyg .content_item .item .item_context .context_item .lsyg_rl {
+  width: 825px;
+}
+
+.menu_lsyg .content_item .item .item_context .context_item .lsyg_rl>h2 {
+  font-size: 24px;
+  color: #165B9F;
+}
+
+.menu_lsyg .content_item .item .item_context .context_item .lsyg_rl>span {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+.menu_lsyg .content_item .item .item_context .context_item .lsyg_fl {
+  width: 324px;
+  height: 220px;
+  background: url('../../img/web_1.png') center no-repeat;
+  background-size: 100% 100%;
+
+}
+
+/*tab栏内容_院情统计_发展定位*/
+.menu_lsyg .content_item .item .item_article {
+  margin-top: 40px;
+  font-size: 14px;
+  height: 435px;
+  color: #5E6267;
+}
+
+.menu_lsyg .content_item .item .item_article p {
+  margin-bottom: 30px;
+}
+
+/*
+  tab栏内容_组织机构
+*/
+.menu_lsyg .content_item .item .left_menu {
+  width: 190px;
+  height: 390px;
+  /* background: linear-gradient(#CAE5FF, #fff);*/
+  background: url(../img/line_2.png) repeat-x;
+  font-weight: blod;
+  padding: 25px;
+}
+
+.menu_lsyg .content_item .item .left_menu h2 {
+  display: block;
+  height: 65px;
+  line-height: 65px;
+  font-size: 20px;
+  color: #165B9F;
+  border-bottom: 1px dashed #AAAAAA;
+
+}
+
+.menu_lsyg .content_item .item .left_menu ul>li {
+  display: block;
+  height: 35px;
+  padding: 15px 0;
+  color: #222;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/*
+*右侧展示栏
+*/
+.menu_lsyg .content_item .item .item_zzjg_sub {
+  width: 860px;
+  padding: 0 10px;
+  /* background: linear-gradient(#CAE5FF, #fff) */
+  background: url(../img/line_3.png) repeat-x;
+}
+
+.menu_lsyg .content_item .item .item_zzjg_sub .zzjg_sub {
+  display: none;
+}
+
+/* .sszs_sub_a_detailPage {
+  display: none;
+} */
+/* 统一修改右侧显示样式 */
+/* 头部面包屑导航 */
+#login_admin_Page_section .zzjg_sub {
+}
+#login_admin_Page_section .bn {
+  height: 18px;
+  padding: 20px 0;
+  border-bottom: 1px dashed #FFF;
+}
+#login_admin_Page_section .bn h2 {
+  font-size: 18px;
+  color:#165B9F;
+}
+#login_admin_Page_section .bn span {
+  font-size: 14px;
+  color:#222;
+}
+/* 内容容器  tab切换菜单样式*/
+#login_admin_Page_section .right_view {
+  background-color: #fff;
+  margin-top: 20px;
+  padding:24px 10px 0;
+}
+#login_admin_Page_section .right_view>.sub_title ul {
+  display:block;
+  width: 880px;
+}
+#login_admin_Page_section .right_view>.sub_title li {
+  margin-right: 24px;
+  display:block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size:14px;
+  color:#222;
+  background-color: #F5F5F5;
+  border:0;
+}
+#login_admin_Page_section .right_view>.sub_title li:hover {
+  background-color: #165B9F;
+  color:#FFF;
+}
+#login_admin_Page_section .right_view>.sub_title li:last-child {
+  margin: 0;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_info_mange {
+  display: block;
+  background-color: #F2F9FF;
+  height: 40px;
+  line-height:40px;
+  font-size:14px;
+  color:#222;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_info_mange>span {
+  display: block;
+  width: 600px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_info_mange:hover span {
+  color:#165B9F;
+}
+#login_admin_Page_section #xssw_sub_a .right_view>.sub_content .sub_info_mange {
+  width: 786px;
+}
+#login_admin_Page_section #jyxx_sub_b .right_view>.sub_content .sub_info_mange {
+  width: 786px;
+}
+#login_admin_Page_section #jyxx_sub_c .right_view>.sub_content .sub_info_mange {
+  width: 786px;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_detail_content {
+  height: 100%;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_detail_content P {
+  display: block;
+  max-width: 840px;
+  word-wrap:break-word;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_detail_content p img {
+  max-width: 830px;
+}
+/* 详情页样式 */
+#login_admin_Page_section .right_view>.sub_content .sub_detail_content h3{
+  font-size: 18px;
+  color:#222;
+  margin-bottom: 12px;
+  text-align: center;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_detail_content .sub_date {
+  font-size: 14px;
+  color:#222;
+  margin-bottom: 39px;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_detail_content p {
+  font-size: 14px;
+  color:#222;
+   
+}
+#login_admin_Page_section .right_view>.sub_content .sub_info_mange:hover {
+  cursor: pointer;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_info_mange span {
+  float: left;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_info_mange i {
+  float: right;
+  font-style: normal;
+}
+#login_admin_Page_section .right_view>.sub_content .sub_info_mange:nth-child(2n){
+  background-color: #E2F1FF;
+}
+/* 个别图片详情页的样式 学习学术——————各种风采 */
+#login_admin_Page_section .right_view>.sub_content_img_style>ul>li {
+  width: 390px;
+  height: 220px;
+  float: left;
+  text-align: center;
+  background-color: #CEE7FF;
+  margin-bottom: 20px;
+}
+#login_admin_Page_section .right_view>.sub_content_img_style>ul>li:nth-child(odd) {
+  margin-right: 60px;
+}
+#login_admin_Page_section .right_view>.sub_content_img_style span {
+  font-size: 14px;
+  color:#222;
+}
+/* 导师风采 */
+#login_admin_Page_section #xxxj_sub_c .right_view>.sub_content_img_style .img{
+  
+  height: 200px;
+  background:url("../img/infor_8.png") no-repeat center;
+}
+/* 学生风采 */
+#login_admin_Page_section #xxxj_sub_d .right_view>.sub_content_img_style .img{
+  
+  height: 200px;
+  background:url("../img/infor_5.png") no-repeat center;
+}
+/* 校园风采 */
+#login_admin_Page_section #xxxj_sub_e .right_view>.sub_content_img_style .img{
+  
+  height: 200px;
+  background:url("../img/infor_3.png") no-repeat center;
+}
+/* 文献资源 */
+#login_admin_Page_section .right_view>.sub_content_wxzy>ul>li {
+  float: left;
+  margin-right: 50px;
+} 
+#login_admin_Page_section .right_view>.sub_content_wxzy>ul>li:nth-child(3n){
+  margin-right: 0;
+}
+#login_admin_Page_section .right_view>.sub_content_wxzy>ul>li>a{
+  display:block;
+  width: 200px;
+  height: 20px;
+  
+}
+/* 评奖评优通知 */
+#xssw_sub_a  .sub_title {
+  width: 500px;
+  height: 100px;
+}
+#xssw_sub_a .sub_content {
+  display:none;
+}
+#xssw_sub_a  .sub_title li {
+  float: left;
+}
+#jyxx_sub_b .sub_title li {
+  float: left;
+}
+#jyxx_sub_b .sub_content {
+  display:none;
+}
+#jyxx_sub_b  .sub_title {
+  width: 500px;
+  height: 100px;
+}
+#jyxx_sub_c .sub_title li {
+  float: left;
+}
+#jyxx_sub_c .sub_content {
+  display:none;
+}
+#jyxx_sub_c  .sub_title {
+  width: 500px;
+  height: 100px;
+}
+#ywbl_sub_d .right_view .sub_content a ,#ywbl_sub_c .right_view .sub_content a,#ywbl_sub_b .right_view .sub_content a,#ywbl_sub_a .right_view .sub_content a{
+    font-size:14px;
+    display:inline-block;
+    width: 40%;
+    text-align: center;
+
+}
+/*
+清除浮动
+*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+

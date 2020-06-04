@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" id="viewport"
+    content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no,viewport-fit:contain">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="中国物理科学研究院研究生院">
+  <meta name="keyword" content="中国物理科学研究院研究生院">
+  <title>中国物理科学研究院研究生院</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/cssreset.css">
+  <link rel="stylesheet" href="../css/Homepage.css">
+  <link rel="stylesheet" href="../js/layui/css/layui.css">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+  <!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+     <script>
+    ! function () {
+      function a() {
+        var dw = 1440; //设计稿尺寸
+        var viewport = document.getElementById('viewport');
+        viewport.setAttribute('content', 'width=' + dw + ', user-scalable=no,viewport-fit:contain')
+      }
+
+      var b = null;
+      window.addEventListener('resize', function () {
+        clearTimeout(b);
+        b = setTimeout(a, 600)
+      }, !1);
+      a()
+    }(window);
+  </script>
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <header>
+    <!-- 版心盒子 -->
+    <div class="wrapBox layui-main">
+      <!-- logo -->
+      <div class="logo fl">
+        <a href="../index.html"><img src="../img/bottom_logo.png" alt=""></img></a>
+      </div>
+      <!-- 登陆信息 -->
+      <div class="islogin fr">
+        <button name="islogin" onclick=logOut()>退出</button>
+      </div>
+    </div>
+  </header>
+  <!-- 内容区 -->
+  <section class="wrap clearfix">
+    <!-- 个人信息头部 -->
+    <div class="Title clearfix">
+      <!-- 个人信息 -->
+      <div class="personalInfo fl clearfix">
+        <!-- 头像 -->
+        <div class="profilePhoto fl">
+
+        </div>
+        <!-- 详情 -->
+        <div class="PerContent fl" style="margin-left:30px">
+          <!-- 姓名 -->
+          <p>
+            <span>姓名:</span><span name="name"></span>
+          </p>
+          <!-- 性别 -->
+          <p>
+            <span>性别:</span><span name="sex"></span>
+          </p>
+          <!-- 类别 -->
+          <p>
+            <span>类别:</span><span name="category"></span>
+          </p>
+          <!-- 学号/编号 -->
+          <p id="myCode">
+
+          </p>
+        </div>
+        <div class="oterhInfo fr">
+
+        </div>
+      </div>
+      <!-- 门户系统 -->
+      <div class="PortalSys fr">
+        <div class="headLine">
+          <span name="headLine">门户系统</span>
+        </div>
+        <div class="PortalSubHeadTitle">
+          <span><a href="./login_admin.html?index=0">科研服务系统</a></span>
+          <span><a href="./login_admin.html?index=1">管理服务系统</a></span>
+          <span><a href="./login_admin.html?index=2">学生服务系统</a></span>
+          <span><a href="./login_admin.html?index=3">生活服务系统</a></span>
+        </div>
+      </div>
+    </div>
+    <!-- 通知公告 -->
+    <div class="Announcement">
+      <div class="AnnHeader clearfix">
+        <div class="AnnTitle fl">
+          <i></i>
+          <h4 name="AnnTitle">通知公告</h4>
+        </div>
+        <div class="AnnMore HomePageTzLink fr">
+          <span> MORE ></span>
+        </div>
+
+      </div>
+      <div class="AnnContent">
+        <ul class="clearfix">
+
+        </ul>
+      </div>
+    </div>
+    <!-- 失物招领 -->
+    <div class="Lost">
+      <div class="AnnHeader clearfix">
+        <div class="AnnTitle fl">
+          <i></i>
+          <h4 name="AnnTitle">失物招领/疑难求助帖</h4>
+        </div>
+        <div class="AnnMore fr">
+          <span><a href="./login_admin.html?index=5"> MORE ></a></span>
+        </div>
+      </div>
+      <div class="LostContent">
+        <ul class="clearfix">
+
+
+        </ul>
+      </div>
+      <div>
+      </div>
+      <!-- 贴吧 -->
+      <div class="PostBar">
+        <textarea id="HomePage" style="display: none;"></textarea>
+        <div class="site-demo-button" style="margin-top: 20px; text-align:right">
+          <button class="layui-btn site-demo-layedit layui-btn-normal" data-type="content">提交</button>
+        </div>
+      </div>
+
+      <!-- 友情链接 -->
+      <div class="friendlyLink">
+        <ul class="clearfix">
+          <li name="friendlyLink"><span>友情链接:</span></li>
+          <li name="friendlyLink"><a href="#">中国工程物理研究院</a></li>
+          <li name="friendlyLink"><a href="#">中国工程物理研究院研究生院</a></li>
+          <li name="friendlyLink"><a href="#">北京计算科学研究中心</a></li>
+        </ul>
+      </div>
+  </section>
+  <ul class="mod-sidebar leftBars">
+    <li><a class="sideMenu2" href="../index.html">主页</a></li>
+  </ul>
+  <script src="../js/common.js"></script>
+  <script src="../js/layui/layui.all.js"></script>
+  <script src="../js/jquery-1.12.3.js"></script>
+  <script src="../js/Homepage.js"></script>
+</body>
+
+</html>
